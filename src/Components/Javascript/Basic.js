@@ -19,9 +19,20 @@ function Basic({ click, clickNo }) {
   } else {
     return (
       <div id="top">
+        <buttton onClick={click} className="simple-nav-button btn-fixed-left">
+          ⏪
+        </buttton>
+        <buttton
+          onClick={basicclickFunction}
+          className="simple-nav-button btn-fixed-right"
+          style={{ float: "right" }}
+        >
+          ⏩
+        </buttton>
         <center>
-          <h1 className="heading">Welcome to the Basics of React</h1>
+          <h1 className="heading fixed">Welcome to the Basics of React</h1>
         </center>
+        <div className="margin"></div>
         <div className="defination">
           <p className="define-heading">⭐ ReactJs</p>
           <br />

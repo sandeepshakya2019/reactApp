@@ -2,11 +2,27 @@ import React from "react";
 
 function ReactPractical({ nextgenclickFunction }) {
   return (
-    <div id="top">
+    <div>
       <>
+        <buttton
+          onClick={nextgenclickFunction}
+          className="simple-nav-button btn-fixed-left"
+        >
+          ⏪
+        </buttton>
+        <buttton
+          onClick={nextgenclickFunction}
+          className="simple-nav-button btn-fixed-right"
+          style={{ float: "right" }}
+        >
+          ⏩
+        </buttton>
         <center>
-          <h1 className="heading">React Practical Session</h1>
+          <h1 className="heading fixed" id="top">
+            React Practical Session
+          </h1>
         </center>
+        <div className="margin"></div>
         <div className="defination">
           <p className="define-heading">React Practical</p>
           <br />

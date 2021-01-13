@@ -68,3 +68,36 @@ a {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-bottom: 20px !important;
+}
+.margin {
+  margin-top: 80px;
+}
+.btn-fixed-left {
+  position: fixed;
+  top: 6px;
+  left: -10px;
+  z-index: 99999;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.btn-fixed-right {
+  position: fixed;
+  top: 6px;
+  right: -10px;
+  z-index: 99999;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.simple-nav-button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  font-size: 35px;
+  /* padding: 10px; */
+  background-color: #0078d7;
+}

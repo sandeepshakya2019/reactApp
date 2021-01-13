@@ -19,9 +19,23 @@ function NextGen({ basicclickFunction }) {
   } else {
     return (
       <>
+        <buttton
+          onClick={basicclickFunction}
+          className="simple-nav-button btn-fixed-left"
+        >
+          ⏪
+        </buttton>
+        <buttton
+          onClick={nextgenclickFunction}
+          className="simple-nav-button btn-fixed-right"
+          style={{ float: "right" }}
+        >
+          ⏩
+        </buttton>
         <center id="top">
-          <h1 className="heading">Next Genration Syntax</h1>
+          <h1 className="heading fixed ">Next Genration Syntax</h1>
         </center>
+        <div className="margin"></div>
         <div className="defination">
           <p className="define-heading"> ⭐ ES6 Syntax</p>
           <br />
