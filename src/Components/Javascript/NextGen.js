@@ -130,8 +130,8 @@ function NextGen({ basicclickFunction }) {
             <code>
               [a,b] = ["hello", "max"]
               <br />
-              console.log(a) => It prints the "hello"
-              <br /> console.log(b) => It prints the "Max"
+              console.log(a) // It prints the "hello"
+              <br /> console.log(b) // It prints the "Max"
               <br /> you can do same with object
             </code>
           </p>

@@ -73,25 +73,25 @@ function Basic({ click, clickNo }) {
             you don't Understand the syntax yet don't worry we will cover in
             upcomping lessons.
           </p>
-          <img
+          {/* <img
             alt="xcode"
             src="/Images/Illustration/exam1.jpg"
             className="example-image"
-          />
+          /> */}
 
           <br />
-          <br />
+
           <p className="define-text ">
             Don't Forgot to add the script tag with the links given below
             <br />
-            <a href="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js">
+            <code>
               https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js
-            </a>
-            <br />
-            <a href="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js">
               https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js
-            </a>
+            </code>
           </p>
+          <p className="define-text"></p>
+          <p className="define-text"></p>
+
           <p className="define-text ">
             After the App variable we have to render the app Components to the
             HTML Page which contain the element of id "app" . Code look like
