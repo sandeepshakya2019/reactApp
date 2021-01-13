@@ -30,7 +30,7 @@ function Basic({ click, clickNo }) {
           ⏩
         </buttton>
         <center>
-          <h1 className="heading fixed">Welcome to the Basics of React</h1>
+          <h1 className="heading fixed">Basics of React</h1>
         </center>
         <div className="margin"></div>
         <div className="defination">
