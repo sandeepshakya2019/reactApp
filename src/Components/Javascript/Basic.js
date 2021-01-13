@@ -30,7 +30,7 @@ function Basic({ click, clickNo }) {
           ⏩
         </buttton>
         <center>
-          <h1 className="heading fixed">Basics of React</h1>
+          <h1 className="heading fixed">Welcome to the Basics of React</h1>
         </center>
         <div className="margin"></div>
         <div className="defination">
@@ -107,14 +107,15 @@ function Basic({ click, clickNo }) {
             the JavaScript expression with the braces. Example Given below. We
             also learn more about the JSX in upcomping lessons.
             <pre>
-              {`            function Person({ name, age }) {
-              return (
-                <div className="person">
-                  <h1>{name}</h1>
-                  <h4>Age : {age}</h4>
-                </div>
-              );
-            }`}
+              {`            
+function Person({ name, age }) {
+  return (
+    <div className="person">
+      <h1>{name}</h1>
+      <h4>Age : {age}</h4>
+    </div>
+  );
+}`}
             </pre>
           </p>
         </div>

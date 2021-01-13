@@ -115,4 +115,10 @@ a {
   .fix {
     font-size: 25px;
   }
+  .define-heading {
+    font-size: 25px;
+  }
+  .define-text {
+    font-size: 18px;
+  }
 }
