@@ -2,7 +2,7 @@ import React from "react";
 
 function ReactPractical({ nextgenclickFunction }) {
   return (
-    <div>
+    <div id="top">
       <>
         <center>
           <h1 className="heading">React Practical Session</h1>
@@ -19,14 +19,17 @@ function ReactPractical({ nextgenclickFunction }) {
         <buttton onClick={nextgenclickFunction} className="basic-button">
           Prev Page
         </buttton>
-        {/* <buttton
+        <buttton
           onClick={nextgenclickFunction}
           className="basic-button"
           style={{ float: "right" }}
         >
           Next Page
-        </buttton> */}
+        </buttton>
       </>
+      <a href="#top" className="fix">
+        ⏫
+      </a>
     </div>
   );
 }

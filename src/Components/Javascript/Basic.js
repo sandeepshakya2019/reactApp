@@ -18,7 +18,7 @@ function Basic({ click, clickNo }) {
     return <NextGen basicclickFunction={basicclickFunction} />;
   } else {
     return (
-      <div>
+      <div id="top">
         <center>
           <h1 className="heading">Welcome to the Basics of React</h1>
         </center>
@@ -134,6 +134,10 @@ function Basic({ click, clickNo }) {
         >
           Next Page
         </buttton>
+
+        <a href="#top" className="fix">
+          ⏫
+        </a>
       </div>
     );
   }

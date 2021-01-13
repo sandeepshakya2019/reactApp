@@ -21,7 +21,9 @@ function App() {
       <>
         <div className="App">
           <header className="App-header">
-            <h1 style={{ marginBottom: "50px" }}>Single Page Application </h1>
+            <h1 style={{ marginBottom: "50px", color: "orange" }}>
+              Single Page Application{" "}
+            </h1>
             <h2 style={{ marginBottom: "50px" }}>
               Welcome to the React Complete Guide
             </h2>
