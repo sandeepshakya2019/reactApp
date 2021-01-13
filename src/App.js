@@ -1,20 +1,21 @@
 import "./App.css";
 import React, { useState } from "react";
-import Basic from "./Components/Basic";
+import Basic from "./Components/Javascript/Basic";
+// import NextGen from "./Components/Javascript/NextGen.js";
 
 function App() {
-  const [click, setClick] = useState(false);
+  const [click, setClick] = useState(0);
   const clickFunction = () => {
     console.log(click);
-    if (click === false) {
-      console.log("here");
-      setClick(true);
-    } else if (click === true) {
-      setClick(false);
+    if (click === 0) {
+      // console.log("here");
+      setClick(1);
+    } else if (click === 1) {
+      setClick(0);
     }
   };
-  if (click) {
-    return <Basic />;
+  if (click === 1) {
+    return <Basic click={clickFunction} clickNo={click} />;
   } else {
     return (
       <>

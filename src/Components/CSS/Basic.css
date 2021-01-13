@@ -3,6 +3,15 @@
   padding: 10px;
   color: orange;
 }
+.basic-button {
+  cursor: pointer;
+  margin: 10px;
+  float: left;
+  border: 1px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+}
 
 .define-heading {
   color: black;
