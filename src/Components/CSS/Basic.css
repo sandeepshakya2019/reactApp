@@ -1,0 +1,41 @@
+.heading {
+  background-color: #1d1e22;
+  padding: 10px;
+  color: orange;
+}
+
+.define-heading {
+  color: black;
+  display: inline;
+  font-size: 30px;
+  font-size: 700;
+}
+.defination {
+  background-color: #64b84b;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.explanation {
+  background-color: #64b84b;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.define-text {
+  font-size: 20px;
+  /* display: inline; */
+  color: blue;
+}
+
+.example-image {
+  background-color: #cccccc;
+  /* background-repeat: no-repeat; */
+  height: 500px;
+  background-position: center; /* Center the image */
+  /* background-repeat: no-repeat;  */
+  /* background-size: cover; */
+}
