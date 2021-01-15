@@ -21,6 +21,9 @@ function App() {
       <>
         <div className="App">
           <header className="App-header">
+            <img src="/Images/Logo/logo.jpg" width="250" height="200" />
+            <br />
+            <br />
             <h1 style={{ marginBottom: "50px", color: "orange" }}>
               Single Page Application{" "}
             </h1>
